@@ -1,0 +1,205 @@
+
+body{
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+
+#page-header{
+
+position: absolute;
+width: 672px;
+height: 79px;
+left: 164px;
+top: 100px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+
+
+display: flex;
+align-items: flex-end;
+
+color: wheat;
+
+}
+
+.fibText{
+    position: absolute;
+width: 189px;
+height:24px ;
+left: 169px;
+top: 236px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+
+
+display: flex;
+
+
+color:wheat;
+}
+
+#userInput{
+position: absolute;
+width: 86px;
+height: 38px;
+left: 372px;
+top: 229px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 4px;
+}
+#button{
+position: absolute;
+width: 39px;
+height: 38px;
+left: 472px;
+top: 229px;
+
+background: #0275D8;
+border: 1px solid #0275D8;
+box-sizing: border-box;
+border-radius: 4px;
+color: white;
+
+}
+
+#compout{
+position: absolute;
+width: 100px;
+height: 24px;
+left: 525px;
+top: 236px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+
+
+display: flex;
+align-items: flex-end;
+text-decoration-line: underline;
+
+color: wheat;
+
+}
+#spinner{
+position: absolute;
+display: flex;
+align-items: flex-end;
+
+left: 513px;
+top: 228px;
+margin: 10px;
+
+}
+#d-none{
+   
+}
+
+.errormsg{
+position: absolute;
+
+
+left: 278px;
+top: 275px;
+color: red;
+
+background: #F2DEDE;
+border: 1px solid #EBCCCC;
+border-radius: 4px;
+}
+#results{
+    position: absolute;
+   
+    left: 164px;
+    top: 479px;
+    display: block;
+   
+   
+    color: wheat;
+    
+    
+}
+.resultsHeader{
+position: absolute;
+width: 182px;
+height: 72px;
+left: 164px;
+top: 347px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 72px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: flex-end;
+
+color: wheat;
+
+}
+
+.borderStyle{
+    border-bottom: 1px solid #000000;
+
+}
+
+#save{
+    position: absolute;
+
+left: 169px;
+top: 282px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+}
+.savecalc{
+    position: absolute;
+
+left: 189px;
+top: 276px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+
+color: wheat;
+
+}
+.selectbox{
+    position: absolute;
+width: 122px;
+height: 38px;
+left: 164px;
+top: 437px;
+
+background: #E6E6E6;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 4px;
+
+
+}

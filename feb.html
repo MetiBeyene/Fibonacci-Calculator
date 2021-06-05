@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./feb.css" />
+    <title>Fibonacci</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="page-header">Fibonacci Calculator</h1>
+        <div class="fibText">The Fibonacci of:</div>
+        <input id="userInput" type="number" placeholder="#" max="50" />
+        <input type="checkbox" id="save" name="save" value="save">
+        <label for="save"  class="savecalc" > Save Calculation</label><br>
+        <input id="button" type="button" value="Is" />
+       
+        <p type="number" name="Answer" id="compout" ></p>
+       
+        <span class="spinner-border spinner-border-sm text-denger" role="status" id="spinner" ></span>
+        <span class="errormsg"></span>
+        <span class="resultsHeader"> Results </span>
+        <div id="results" ></div>
+
+
+        <div>
+            <select class="selectbox" id="sortBy">
+              <option value="0">Sort By:</option>
+              <option value="1">Number Asc</option>
+              <option value="2">Number Desc</option>
+              <option value="3">Date Asc</option>
+              <option value="4">Date Desc</option>
+             
+            </select>
+          </div>
+        </div>
+    
+    <script src="./feb.js"></script>
+</body>
+
+</html>
